@@ -1,47 +1,46 @@
-username - ShoonLaeMayLwin
-email - yukilwin112233@gmail.com
-password - Slml1995@#
 
-step 1 : Git Download
-step 2 : Git Installation
-step 3 : Github Account Creation
-step 4 : Git Repository
-step 5 : A File To Upload on Github
-step 6 : Git Commmand Line
 
-cd Path - Go to Directory
 
-First time (New Repository)
+Step 1 : Git Download
+Step 2 : Git Installation
+Step 3 : Github Account Creation
+Step 4 : Git Repository
+Step 5 : A File to upload on github
+Step 6 : Git Command Line
+
+cd Path- Go to Directory
+
+First Time ( New Respositoty)
 			git init
-			git add
-			git config global user.email "useremail"
-			git config global user.name "username"
-
-			git comit-m "first commmit"
-			git remote add orign http://github.com/ShoonLaeMayLwin/
-			Sample.git
-			git push -u origin master
-
-(New Repository For New Project)
-			git init
-			git add
-			git config global user.email "useremail"
-			git config global user.name "username"
-			
-			git comit-m "first commmit"
-			git remote add orign http://github.com/ShoonLaeMayLwin/
-			Sample.git
-			git push -u origin master
-
-(Old Repository For Exisiting Project)
 			git add .
-			git commit -m "second commit"
+			git config --global user.email "usermail"
+			git config --global user.name "username"
+			
+			git commit -m "first commit"
+			git remore add origin https://github.com/ShoonLaeMayLwin/sample.git
+			git push -u orign master
+
+(New Respository For New Project)
+			git init
+			git add .
+			/*git config global user.email "usermail"
+			git config global user.name "username"*/not required after first time
+
+			git commit -m "first commit"
+			git remote add origin https://github.com/ShoonLaeMayLwin/Sample.git
+			git push -u origin master 
+
+(Old Repository for Existing Project)
+			
+			git add .
+			git commit -m "second commit"		( second commit = name )
 			git push
 
-(Existing Project To Other Laptop)
- 		
- 			git pull
+(Exostomg Project to Other Laptop)
+		
+			git pull
 
 (Other Person Project To Own Laptop)
 
-			git clone https://github.com/ShoonLaeMayLwin/Sample.git
+			git clone https://github.com/WaiYanLinn10/Sample.git
+
