@@ -16,3 +16,9 @@ print(a, ' ', b,' ', c,' ',d)
 
 for i in range(len(mary.a)):
 	print(i, mary.a[i])
+
+bool min(x,y)
+if x <= y :
+	return x
+else:
+	return y
